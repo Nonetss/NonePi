@@ -1,8 +1,10 @@
-# **Instalación de Armbian en Orange Pi y Migración a NVMe**
-
-Este tutorial describe cómo instalar **Armbian** en una **Orange Pi**, configurar el arranque desde un **NVMe** y establecer una **IP fija**.
+# [OS Link](https://www.armbian.com/orange-pi-5-pro/)
 
 ---
+
+# **Instalación de Armbian en Orange Pi y Migración a NVMe**
+
+## Este tutorial describe cómo instalar **Armbian** en una **Orange Pi**, configurar el arranque desde un **NVMe** y establecer una **IP fija**.
 
 ## **1. Flashear la tarjeta SD**
 

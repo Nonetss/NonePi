@@ -1,4 +1,10 @@
-# [OS Link](https://www.armbian.com/orange-pi-5-pro/)
+# Link
+
+## [OS Link](https://www.armbian.com/orange-pi-5-pro/)
+
+## [Link Video](https://www.armbian.com/orange-pi-5-pro/)
+
+---
 
 # **Instalación de Armbian en Orange Pi y Migración a NVMe**
 

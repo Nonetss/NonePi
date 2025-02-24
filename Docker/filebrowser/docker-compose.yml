@@ -1,0 +1,14 @@
+version: "3.7"
+
+services:
+  filebrowser:
+    image: filebrowser/filebrowser:latest
+    container_name: filebrowser
+    restart: always
+    ports:
+      - "8888:80" # Cambia el puerto si lo necesitas
+    volumes:
+      - ./filebrowser/data:/srv # Carpeta que quieres compartir
+      - ./filebrowser/config:/config # Configuración persistente
+    environment:
+      FB_AUTH_METHOD: "default" # Método de autenticación

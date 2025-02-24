@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+  npm:
+    image: "jc21/nginx-proxy-manager:latest"
+    container_name: npm
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+      - "81:81" # Interfaz web de NPM
+    volumes:
+      - ./npm/data:/data
+      - ./npm/letsencrypt:/etc/letsencrypt
